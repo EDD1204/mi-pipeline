@@ -20,7 +20,3 @@ def dividir(a, b):
     if b == 0:
         raise ValueError("No se puede dividir entre cero")
     return a / b
-
-# ERROR INTENCIONAL
-resultado = sumar(1, 2)
-variable_sin_usar = "Este es un error intencional para demostrar el fallo"
